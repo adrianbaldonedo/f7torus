@@ -1,0 +1,21 @@
+---
+title: "index.html"
+author: "adrian"
+date: "2024-11-20"
+output: 
+  html_document: 
+    toc: true
+    df_print: default
+---
+library(shiny)
+
+# CLASIFICACION
+
+# Lógica del servidor
+server <- function(input, output) {}
+
+# Ejecutar la aplicación
+shinyApp(ui = ui, server = server)
+
+
+

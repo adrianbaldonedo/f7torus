@@ -1,0 +1,26 @@
+{
+    "id": "B854FA4F",
+    "path": "~/f7torus/app.R",
+    "project_path": "app.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1732188550528.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "9,14",
+        "scrollLine": "4"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1732203694,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1732203694725,
+    "read_only": false,
+    "read_only_alternatives": []
+}

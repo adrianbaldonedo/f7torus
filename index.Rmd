@@ -1,0 +1,156 @@
+---
+title: "index.html"
+author: "adrian"
+date: "2024-11-20"
+output: 
+  html_document: 
+    toc: true
+    df_print: default
+---
+library(shiny)
+
+# CLASIFICACION
+ui <- fluiPage(
+  titilePanel("Clasificación f7"),
+  
+  tags$table(
+    tags$th("Pos"),
+    tags$th("Equipo"),
+    tags$th("J"),
+    tags$th("G"),
+    tags$th("E"),
+    tags$th("P"),
+    tags$th("GF"),
+    tags$th("GC"),
+    tags$th("DF"),
+    tags$th("Pts")
+),
+ tags$table(
+    tags$th("1"),
+    tags$th("ABANCA"),
+    tags$th("2"),
+    tags$th("2"),
+    tags$th("0"),
+    tags$th("0"),
+    tags$th("18"),
+    tags$th("5"),
+    tags$th("13"),
+    tags$th("6")
+),
+ tags$table(
+    tags$th("2"),
+    tags$th("EMALCSA"),
+    tags$th("3"),
+    tags$th("2"),
+    tags$th("0"),
+    tags$th("1"),
+    tags$th("15"),
+    tags$th("9"),
+    tags$th("9"),
+    tags$th("6")
+),
+ tags$table(
+    tags$th("3"),
+    tags$th("GE REFINERA CORUÑA"),
+    tags$th("2"),
+    tags$th("2"),
+    tags$th("0"),
+    tags$th("0"),
+    tags$th("9"),
+    tags$th("4"),
+    tags$th("5"),
+    tags$th("6")
+),
+ tags$table(
+    tags$th("4"),
+    tags$th("KPMG"),
+    tags$th("2"),
+    tags$th("1"),
+    tags$th("1"),
+    tags$th("0"),
+    tags$th("11"),
+    tags$th("7"),
+    tags$th("4"),
+    tags$th("4")
+),
+ tags$table(
+    tags$th("5"),
+    tags$th("COL.ABOGADOS"),
+    tags$th("2"),
+    tags$th("1"),
+    tags$th("1"),
+    tags$th("0"),
+    tags$th("9"),
+    tags$th("8"),
+    tags$th("1"),
+    tags$th("4")
+),
+ tags$table(
+    tags$th("6"),
+    tags$th("URBEKO LIKORKAFE"),
+    tags$th("3"),
+    tags$th("1"),
+    tags$th("0"),
+    tags$th("2"),
+    tags$th("13"),
+    tags$th("18"),
+    tags$th("-5"),
+    tags$th("3")
+),
+ tags$table(
+    tags$th("7"),
+    tags$th("TORUSWARE"),
+    tags$th("1"),
+    tags$th("0"),
+    tags$th("0"),
+    tags$th("0"),
+    tags$th("3"),
+    tags$th("7"),
+    tags$th("-4"),
+    tags$th("0")
+),
+ tags$table(
+    tags$th("8"),
+    tags$th("BBVA"),
+    tags$th("2"),
+    tags$th("0"),
+    tags$th("0"),
+    tags$th("2"),
+    tags$th("4"),
+    tags$th("10"),
+    tags$th("-6"),
+    tags$th("0")
+),
+ tags$table(
+    tags$th("9"),
+    tags$th("DENODO"),
+    tags$th("2"),
+    tags$th("0"),
+    tags$th("0"),
+    tags$th("2"),
+    tags$th("6"),
+    tags$th("14"),
+    tags$th("-8"),
+    tags$th("0")
+),
+ tags$table(
+    tags$th("10"),
+    tags$th("EY"),
+    tags$th("1"),
+    tags$th("0"),
+    tags$th("0"),
+    tags$th("1"),
+    tags$th("1"),
+    tags$th("10"),
+    tags$th("-9"),
+    tags$th("0")
+),
+)
+# Lógica del servidor
+server <- function(input, output) {}
+
+# Ejecutar la aplicación
+shinyApp(ui = ui, server = server)
+
+
+
